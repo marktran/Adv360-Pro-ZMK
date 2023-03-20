@@ -2,7 +2,7 @@ macro_lock_mac_os: macro_lock_mac_os{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_mac_os";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&sk LEFT_CONTROL>, <&kp Q>;
+bindings = <&kp LC(LG(Q))>;
 };
 macro_next_tab: macro_next_tab{
 compatible = "zmk,behavior-macro";
