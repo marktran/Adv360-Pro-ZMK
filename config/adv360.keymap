@@ -74,7 +74,7 @@
     };
 
     rm: right_hand_positional_hold_tap {
-        compatible: "zmk,behavior-hold-tap";
+        compatible = "zmk,behavior-hold-tap";
         label = "RIGHT_HOMEROW_MODS";
         #binding-cells = <2>;
         flavor = "tap-unless-interrupted";
