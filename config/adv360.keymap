@@ -82,7 +82,7 @@
         quick-tap-ms = <200>;
         bindings = <&kp>, <&kp>;
         hold-trigger-key-positions = <0 1 3 4>;
-    }
+    };
   };
 
     keymap {
