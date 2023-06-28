@@ -1,9 +1,3 @@
-macro_open_weekly_doc: macro_open_weekly_doc{
-compatible = "zmk,behavior-macro";
-label = "macro_open_weekly_doc";
-#binding-cells = <0>;
-bindings = <&kp LC(LA(LG(W)))>;
-};
 macro_lock_mac_os: macro_lock_mac_os{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_mac_os";
