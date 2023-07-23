@@ -14,7 +14,7 @@ macro_open_reflect: macro_open_reflect{
 compatible = "zmk,behavior-macro";
 label = "macro_open_reflect";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND(LEFT_ALT(LEFT_SHIFT(LEFT_CONTROL(R))))>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&sk LEFT_SHIFT>, <&sk LEFT_CONTROL>, <&kp R>;
 };
 macro_emoji_picker: macro_emoji_picker{
 compatible = "zmk,behavior-macro";
