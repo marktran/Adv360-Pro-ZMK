@@ -14,13 +14,13 @@ macro_open_reflect: macro_open_reflect{
 compatible = "zmk,behavior-macro";
 label = "macro_open_reflect";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&sk LEFT_SHIFT>, <&sk LEFT_CONTROL>, <&kp R>;
+bindings = <&kp LG(LA(LS(LC(R))))>;
 };
 macro_emoji_picker: macro_emoji_picker{
 compatible = "zmk,behavior-macro";
 label = "macro_emoji_picker";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT_COMMAND>, <&kp SPACE>;
+bindings = <&kp LC(LG(SPC))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
