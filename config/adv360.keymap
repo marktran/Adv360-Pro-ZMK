@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp F1               &kp F2  &kp F3          &kp F4              &kp F5  &kp F6                      &tog 1                                                             &mo 3               &kp F7        &kp F8        &kp F9          &kp F10  &kp F11  &kp F12
- &trans               &trans  &trans          &trans              &trans  &trans                       &none                                                             &none               &trans        &trans        &trans           &trans   &trans   &trans
- &trans  &macro_open_ai_chat  &trans          &trans  &macro_full_screen  &trans                       &none  &trans  &trans                  &trans  &trans             &none  &macro_previous_tab        &trans        &trans  &macro_next_tab   &trans   &trans
- &trans               &trans  &trans          &trans              &trans  &trans                                      &trans                  &trans                                         &trans        &trans        &trans           &trans   &trans   &trans
- &trans               &trans  &trans  &kp C_PREVIOUS          &kp C_NEXT                    &kp C_PLAY_PAUSE  &trans  &trans                  &trans  &trans  &kp C_PLAY_PAUSE                       &kp C_VOL_UP  &kp C_VOL_DN           &trans   &trans   &trans
+ &macro_win_larger               &kp F2  &kp F3          &kp F4              &kp F5  &kp F6                          &tog 1                                                                  &mo 3               &kp F7        &kp F8        &kp F9          &kp F10  &kp F11  &macro_win_smaller
+            &trans               &trans  &trans          &trans              &trans  &trans            &macro_win_left_half                                                  &macro_win_right_half               &trans        &trans        &trans           &trans   &trans              &trans
+            &trans  &macro_open_ai_chat  &trans          &trans  &macro_full_screen  &trans                           &none  &trans  &trans                  &trans  &trans                  &none  &macro_previous_tab        &trans        &trans  &macro_next_tab   &trans              &trans
+            &trans               &trans  &trans          &trans              &trans  &trans                                          &trans                  &trans                                              &trans        &trans        &trans           &trans   &trans              &trans
+            &trans               &trans  &trans  &kp C_PREVIOUS          &kp C_NEXT                        &kp C_PLAY_PAUSE  &trans  &trans                  &trans  &trans       &kp C_PLAY_PAUSE                       &kp C_VOL_UP  &kp C_VOL_DN           &trans   &trans              &trans
             >;
         };
 
