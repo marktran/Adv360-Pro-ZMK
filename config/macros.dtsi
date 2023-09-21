@@ -1,3 +1,9 @@
+macro_open_ai_chat: macro_open_ai_chat{
+compatible = "zmk,behavior-macro";
+label = "macro_open_ai_chat";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(LS(LC(A))))>;
+};
 macro_full_screen: macro_full_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_full_screen";
