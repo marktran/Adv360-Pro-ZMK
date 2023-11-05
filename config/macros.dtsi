@@ -2,19 +2,19 @@ macro_hide_non_front: macro_hide_non_front{
 compatible = "zmk,behavior-macro";
 label = "macro_hide_non_front";
 #binding-cells = <0>;
-bindings = <&kp RSHIFT(RALT(RCMD(RCTRL(W))))>;
+bindings = <&kp LG(LA(LS(LC(W))))>;
 };
 macro_lock_screen: macro_lock_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_screen";
 #binding-cells = <0>;
-bindings = <&kp RSHIFT(RCMD(RALT(RCTRL(ESC))))>;
+bindings = <&kp LG(LA(LS(LC(ESC))))>;
 };
 macro_win_larger: macro_win_larger{
 compatible = "zmk,behavior-macro";
 label = "macro_win_larger";
 #binding-cells = <0>;
-bindings = <&kp RG(RS(EQUAL))>;
+bindings = <&kp LG(LS(EQUAL))>;
 };
 macro_win_smaller: macro_win_smaller{
 compatible = "zmk,behavior-macro";
@@ -26,13 +26,13 @@ macro_win_right_half: macro_win_right_half{
 compatible = "zmk,behavior-macro";
 label = "macro_win_right_half";
 #binding-cells = <0>;
-bindings = <&kp RG(RS(RIGHT))>;
+bindings = <&kp LG(LS(RIGHT))>;
 };
 macro_win_left_half: macro_win_left_half{
 compatible = "zmk,behavior-macro";
 label = "macro_win_left_half";
 #binding-cells = <0>;
-bindings = <&kp RG(RS(LEFT))>;
+bindings = <&kp LG(LS(LEFT))>;
 };
 macro_open_ai_chat: macro_open_ai_chat{
 compatible = "zmk,behavior-macro";
@@ -44,7 +44,7 @@ macro_full_screen: macro_full_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_full_screen";
 #binding-cells = <0>;
-bindings = <&kp RG(RC(F))>;
+bindings = <&kp LG(LC(F))>;
 };
 macro_next_tab: macro_next_tab{
 compatible = "zmk,behavior-macro";
