@@ -1,3 +1,15 @@
+macro_zoom_tog_video: macro_zoom_tog_video{
+compatible = "zmk,behavior-macro";
+label = "macro_zoom_tog_video";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(LS(LC(V))))>;
+};
+macro_zoom_tog_audio: macro_zoom_tog_audio{
+compatible = "zmk,behavior-macro";
+label = "macro_zoom_tog_audio";
+#binding-cells = <0>;
+bindings = <&kp LG(LA(LS(LC(M))))>;
+};
 macro_hide_non_front: macro_hide_non_front{
 compatible = "zmk,behavior-macro";
 label = "macro_hide_non_front";
