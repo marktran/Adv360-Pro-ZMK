@@ -20,7 +20,7 @@ macro_lock_screen: macro_lock_screen{
 compatible = "zmk,behavior-macro";
 label = "macro_lock_screen";
 #binding-cells = <0>;
-bindings = <&kp LG(LA(LS(LC(ESC))))>;
+bindings = <&kp LG(LA(LS(LC(S))))>;
 };
 macro_win_larger: macro_win_larger{
 compatible = "zmk,behavior-macro";
